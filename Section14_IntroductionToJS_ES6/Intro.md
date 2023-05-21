@@ -11,3 +11,6 @@
 Variable Names:
  
 ![image](https://github.com/priyajani028/WebINIT/assets/87660206/ff9d8c78-3de0-4bd9-88fb-6e269f43a750)
+
+
+![image](https://github.com/priyajani028/WebINIT/assets/87660206/bd854a09-1bb1-4b47-adf2-c43a03b54cf4)
