@@ -62,9 +62,5 @@ app.post("/failure", function(req,res){
 
 
 
-// api key
-// 5de921677e409bd7d80a7b6830ac3e46-us12
-
-// ff9487bd03
 
 
