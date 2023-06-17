@@ -18,11 +18,11 @@ Some Games To play & practice:
 - https://cssgridgarden.com/
 
 
-Git, github :
-https://learngitbranching.js.org/
+Git, github : https://learngitbranching.js.org/
 
+SQL practice link : https://sqliteonline.com/
 
-Course Link:
+Course Material Link:
 - https://www.appbrewery.co/p/web-development-course-resources/
 
 
@@ -32,6 +32,7 @@ Mini Projects:
 - Advanced CSS, Media Queries -> Section 8
 - Grids Mondrain Project -> Section 10
 - Bootstrap TinDog Website -> Section 11
+- Portfolio Practice -> Section 13
 - JS Boss Level Challenge 1 (Dice Game) -> Section 17
 - Advanced JS Drum Kit -> Section 18
 - Simon Game (Boss Level 2) -> Section 20
@@ -40,3 +41,4 @@ Mini Projects:
 - APIs Weather Forecasting -> Section 25
 - APIS Newsletter -> Section 25
 - EJS TO-DO LIST -> Section 27
+- Blog Website (Boss Level 3) -> Section 28
