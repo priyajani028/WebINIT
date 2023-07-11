@@ -8,4 +8,6 @@ Why you need authentication?
 
 -> Another use, To restrict access , once user pays, he/she can access some other services.
 
+Project name: Whisper App
 
+![image](https://github.com/priyajani028/WebINIT/assets/87660206/379326c3-3808-471f-a672-53990986ead6)
