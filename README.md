@@ -1,6 +1,10 @@
 # WebINIT
 
-This is just my practice efforts to webdev course.
+This is just my practice efforts to webdev course(The Complete 2023 Web Development Bootcamp, Instructor: Dr. Angela Yu, Course available on udemy).
+
+You will find my notes in most of the sections, about what I have learnt and understood about the concept.
+
+These are some of the sites and details that I have used and created along with the course.
 
 CSS Flexbox Cheatsheet: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
@@ -42,6 +46,14 @@ Course Material Link:
 - APIS Newsletter -> Section 25
 - EJS TO-DO LIST -> Section 27
 - Blog Website (Boss Level 3) -> Section 28
+- Customer-Product collection using SQLite -> Section 30
+- Property collection and schema using Mongodb and Atlas -> Section 31
+- Fruit Schema Practice using MongoDB -> Section 32
+- TODO List (frontend with backend) -> Section 33
+- Blog Website Upgrade (BossLevel challenge 4) -> Section 35
+- Whisper App using Authentication (OAuth, Cookies and Sessions) -> Section 37
+
+  <!-- - RESTful APIs -> Section 36 (learnt Postman) -->
 
 
 
