@@ -1,3 +1,4 @@
+const dotenv=require("dotenv").config();
 const express= require("express");
 const bodyParser= require("body-parser");
 // const date= require(__dirname+"/date.js")
@@ -10,7 +11,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin_Priya:pika028@cluster0.fisc3ar.mongodb.net/todolistDB",{useNewUrlParser: true});
+mongoose.connect(process.env.TODOURL,{useNewUrlParser: true});
 
 // const items=["Eat Food", "Cook Food", "Buy food"];
 // const workItems=[];
