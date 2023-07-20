@@ -26,7 +26,7 @@ Course Material Link:
 - https://www.appbrewery.co/p/web-development-course-resources/
 
 
-Mini Projects: 
+## Mini Projects: 
 - HTML Project Section-4
 - CSS Flag Making -> Section 7
 - Advanced CSS, Media Queries -> Section 8
@@ -42,3 +42,12 @@ Mini Projects:
 - APIS Newsletter -> Section 25
 - EJS TO-DO LIST -> Section 27
 - Blog Website (Boss Level 3) -> Section 28
+
+
+
+## Authentication & Security:
+- Check you password strength (http://password-checker.online-domain-tools.com/)
+
+- Encryption/Decryption: https://cryptii.com/
+
+Fun activity: be a movie wala hacker: https://hackertyper.net/
