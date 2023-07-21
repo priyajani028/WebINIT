@@ -15,7 +15,7 @@ Some other Links:
 - Grid-VS-Flexbox -> https://appbrewery.github.io/grid-vs-flexbox/
 - Grid-Sizing-> https://appbrewery.github.io/grid-sizing/
 - Bootstrap Breakpoints Exercise -> https://appbrewery.github.io/bootstrap-layout/
-
+- For random images -> https://picsum.photos/
 
 Some Games To play & practice:
 - https://flexboxfroggy.com/
