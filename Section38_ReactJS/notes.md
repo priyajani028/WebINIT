@@ -1,6 +1,6 @@
 # NOTES
 
-React: JS library for building user interfaces.
+### **React** : JS library for building user interfaces.
 
 Complex app into component tree.
 
@@ -8,17 +8,20 @@ It makes components such that each component has its own piece of HTML, CSS, JS.
 
 React compares the old version of component tree and checks for updation. Once found any difference, it rerenders the part of the tree that is different.
 
-JSX lets HTML to be inserted in JS and one step further, it can also let JS to be inserted in that HTML code. 
+**JSX** lets HTML to be inserted in JS and one step further, it can also let JS to be inserted in that HTML code. 
 
 Practice at: https://codesandbox.io/s/react-new
 
 You can go through the folders or just follow the links:
 
-1. Introduction to JSX: https://codesandbox.io/s/introduction-to-jsx-forked-346dps?file=/src/index.js
+### 1. Introduction to JSX
+https://codesandbox.io/s/introduction-to-jsx-forked-346dps?file=/src/index.js
 
-2. JSX-Code-challenge: https://codesandbox.io/s/jsx-code-challenge-forked-g9fp9h?file=/src/index.js
+### 2. JSX-Code-challenge
+https://codesandbox.io/s/jsx-code-challenge-forked-g9fp9h?file=/src/index.js
 
-3. Javascript Expressions in JSX & ES6 Template Literals : https://codesandbox.io/s/javascript-expressions-in-jsx-forked-629nr3?file=/src/index.js
+### 3. Javascript Expressions in JSX & ES6 Template Literals 
+https://codesandbox.io/s/javascript-expressions-in-jsx-forked-629nr3?file=/src/index.js
 
 What is expressions and statements: 
 
@@ -36,9 +39,11 @@ for eg: console.log(const x);  //error
 
 let b = if(x>10){return 100;}  //error
 
-4. Javascript Expressions in JSX Practice : https://codesandbox.io/s/javascript-expressions-in-jsx-practice-forked-l5fq6f?file=/src/index.js
+### 4. Javascript Expressions in JSX Practice 
+https://codesandbox.io/s/javascript-expressions-in-jsx-practice-forked-l5fq6f?file=/src/index.js
 
-5. JSX Attributes & Styling React Elements: https://codesandbox.io/s/jsx-attributes-and-styling-forked-7vlxws?file=/src/index.js
+### 5. JSX Attributes & Styling React Elements
+https://codesandbox.io/s/jsx-attributes-and-styling-forked-7vlxws?file=/src/index.js
 
 you can add class like class="heading", it will give warning but it will work. In JS, you can access classes by className. Change it to className to remove the warning.
 
@@ -56,7 +61,8 @@ Do remember in JSX file, there should be closing tag. Else it will give error.
 
 for example: in html , it is okay to write <img src="" alt=""> , but in JSX, you must close it : <img src="" alt="" />. With it, eslint makes sure you code in organized way. For example if you forgot alt attribute, it will show you yellow underlined code to highlight you, what's the warning/issue.
 
-6. Inline Styling for React Elements: https://codesandbox.io/s/inline-styling-in-jsx-forked-ptmpyl?file=/src/index.js
+### 6. Inline Styling for React Elements
+https://codesandbox.io/s/inline-styling-in-jsx-forked-ptmpyl?file=/src/index.js
 
 inline styling in JSX won't work until unless it is in JS object for, that is:
 
@@ -66,9 +72,11 @@ inline styling in JSX won't work until unless it is in JS object for, that is:
 }
 ```
 
-7. React Styling Practice: https://codesandbox.io/s/react-styling-practice-forked-23l7cw?file=/src/index.js
+### 7. React Styling Practice
+https://codesandbox.io/s/react-styling-practice-forked-23l7cw?file=/src/index.js
 
-8. React Components: https://codesandbox.io/s/react-components-forked-cy5sw9?file=/src/index.js
+### 8. React Components
+https://codesandbox.io/s/react-components-forked-cy5sw9?file=/src/index.js
 
 Components are reusable code that can be used many times.
 
@@ -102,13 +110,16 @@ Import the component in the index.js using import.
 import Heading from "./Heading";
 ```
 
-9 .React Components Practice: https://codesandbox.io/s/react-components-practice-forked-jqqlpj?file=/src/index.js
+### 9 .React Components Practice
+https://codesandbox.io/s/react-components-practice-forked-jqqlpj?file=/src/index.js
 
-10. Javascript ES6 - Import, Export and Modules: https://codesandbox.io/s/es6-import-export-modules-forked-jpz2ds?file=/src/index.js
+### 10. Javascript ES6 - Import, Export and Modules
+https://codesandbox.io/s/es6-import-export-modules-forked-jpz2ds?file=/src/index.js
 
-11. Javascript ES6 Import, Export and Modules Practice: https://codesandbox.io/s/es6-import-export-practice-forked-z9ztnd?file=/src/index.js
+### 11. Javascript ES6 Import, Export and Modules Practice
+https://codesandbox.io/s/es6-import-export-practice-forked-z9ztnd?file=/src/index.js
 
-12. [Windows] Local Environment Setup for React Development
+### 12. [Windows] Local Environment Setup for React Development
 
 a. Download the recommended version of nodejs if not. 
 
@@ -118,7 +129,6 @@ c. create react app
 
 ```
 npx create-react-app my-app
-
 ```
 
 d. run app
