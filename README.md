@@ -63,3 +63,9 @@ Course Material Link:
 - Encryption/Decryption: https://cryptii.com/
 
 Fun activity: be a movie wala hacker: https://hackertyper.net/
+
+## React Practice 
+- https://codesandbox.io/s/react-new
+
+- ES6 playlist: https://www.youtube.com/watch?v=muFql8Z4sCg&list=PL-xu4i_QDSxcoDNeh8rx5-pHCCTOg0XsI&index=1
+
