@@ -14,6 +14,8 @@ Practice at: https://codesandbox.io/s/react-new
 
 You can go through the folders or just follow the links:
 
+(Note: Folders starting from 13 might have some issues in running.)
+
 ### 1. Introduction to JSX
 https://codesandbox.io/s/introduction-to-jsx-forked-346dps?file=/src/index.js
 
@@ -174,3 +176,137 @@ function Card(props) {
   );
 }
 ```
+
+### 15. Props Practice 
+
+https://codesandbox.io/s/react-props-practice-forked-jggt6x?file=/src/components/App.jsx
+
+
+### 16. Chrome Dev tools
+
+https://codesandbox.io/s/react-devtools-forked-8xw8tk?file=/src/components/Card.jsx
+
+Get the React Developer Tools from Chrome extensions to help you understand the react DOM tree better.
+
+### 17. Mapping
+
+https://codesandbox.io/s/mapping-components-forked-wdq2cj?file=/src/components/Card.jsx
+
+
+### 18. Mapping Practice (EmojiPedia)
+
+https://codesandbox.io/s/mapping-components-practice-forked-g88nsm?file=/src/components/Entry.jsx
+
+### 19. JS ES6 Map/Filter/Reduce
+
+https://codesandbox.io/s/map-filter-reduce-forked-5pvdq3?file=/src/index.js
+
+Map- create a new array 
+
+forEach method has to use a new use array and then it performs the functions. 
+
+Thus, map is more useful as it gives the output as a new array instead of creating new array from us.
+
+```
+var numbers = [3, 56, 2, 48, 5];
+
+//map
+const newNumbers1 = numbers.map(function (x) {
+  return x * 2;
+});
+
+//forEach
+var newNumbers2 = [];
+
+numbers.forEach(function (x) {
+  newNumbers2.push(x * 2);
+});
+
+```
+
+Filter - Create a new array by keeping the items that return true.
+
+```
+const newNumbers = numbers.filter(function(num){
+  return num > 10
+})
+```
+
+Reduce : Accumulate a value by doing something to each item in an array.
+
+```
+var numbers = [3, 56, 2, 48, 5];
+//aam zindagi 
+
+// var newNumbers=0;
+
+// numbers.forEach(function(currentNumber){
+//   newNumbers+=currentNumber;
+// })
+
+//mentos zindagi
+var newNumbers = numbers.reduce(function(accumulator, currentNumber){
+  return accumulator + currentNumber;
+})
+
+//accumulator is first 3 and currentNumber is 56
+//then accumulator becomes 59 and currentNumber is 2 and so on...
+
+```
+
+Find - find the first item that matches from an array.
+
+```
+const newNumber= numbers.find(function(num){
+  return num>10
+})
+```
+
+FindIndex - find the index of the first item that matches.
+
+```
+const newNumberIndex = numbers.findIndex(function (num) {
+  return num > 10;
+});
+```
+
+### 20. ES6 Arrow Functions
+
+https://codesandbox.io/s/es6-arrow-functions-forked-pgr53q?file=/src/index.js
+
+learn more from: https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/
+
+```
+var numbers = [3, 56, 2, 48, 5];
+
+const newNumbers = numbers.map((x) => {
+  return x * x;
+});
+```
+
+### 21. Keeper 2
+
+https://codesandbox.io/s/keeper-app-part-2-starting-forked-zkh959?file=/src/components/App.js
+
+### 22. React Conditional Rendering with Ternary Operator and AND  Operator
+
+https://codesandbox.io/s/conditional-rendering-forked-fvjglm?file=/src/components/App.jsx
+
+For passing the function inline, where there is if else it will show error , as it wants expression and not a statement.
+
+thus, using ternary or AND operators comes in handy.
+
+```
+<div className="container">
+      {
+        // isLoggedIn ? <h1>Hello</h1> : <Login />
+        // currTime > 12 ? <h1>Working!!</h1> : null
+        currTime > 12 && <h1>Working!!</h1>
+      }
+    </div>
+```
+
+### 23. Ternary and AND Operators Practice
+
+https://codesandbox.io/s/conditional-rendering-practice-forked-x3gsnh?file=/src/components/Form.jsx
+
