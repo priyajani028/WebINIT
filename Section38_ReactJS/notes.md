@@ -132,3 +132,45 @@ npx create-react-app my-app
 ```
 
 d. run app
+
+
+### 13. Keeper Project
+
+https://codesandbox.io/s/keeper-app-part-1-starting-forked-w2fpq7
+
+### 14. Props 
+
+https://codesandbox.io/s/react-props-forked-2fwdqg?file=/src/index.js
+
+Creating custom components should be done in a way that the first letter is capitalized. This is so to distinguish between the custom components and HTML tags.
+
+Also, you can give style direct to the custom components as it is like a function that you are calling . So,
+
+<Card className= "bg-blue-500"/> is "wrong".
+
+As, mentioned, custom components work as a function that you are calling, thus, you can give the properties as well (aka props).  
+
+You can define your props :
+
+```
+<Card
+      name="Priya"
+      img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
+      tel="+123 456 789"
+      email="b@beyonce.com"
+    />
+```
+and then use it in your component: 
+
+```
+function Card(props) {
+  return (
+    <div>
+      <h2>{props.name}</h2>
+      <img src={props.img} alt="avatar_img" />
+      <p>{props.tel}</p>
+      <p>{props.email}</p>
+    </div>
+  );
+}
+```
