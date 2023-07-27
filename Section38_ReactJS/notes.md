@@ -314,6 +314,8 @@ https://codesandbox.io/s/conditional-rendering-practice-forked-x3gsnh?file=/src/
 
 ### 24. State in react ( Declarative and imperative programming )
 
+https://codesandbox.io/s/introduction-to-state-completed-forked-628c3y?file=/src/components/App.jsx
+
 UI = F(State) 
 
 User interface of your website is a function of state of you web app.
@@ -323,3 +325,233 @@ Example :
 - state variable as false for TODO list and when clicked it becomes true and gets striked.
 
 
+Declarative Programming :
+- what to do
+- Expressions
+- Evaluate Results
+
+```
+let arr=[1,2,3,4,5];
+arr2= arr.map(function(v,i){
+  return v*2;
+})
+console.log(arr2);
+```
+
+Imperative Programming :
+- How to do things
+- Statements
+- Defining variables and changing their values.
+
+```
+let arr=[1,2,3,4,5];
+let arr2=[];
+for(var i=0;i<arr.length;i++){
+  arr2[i]=arr[i]*2;
+}
+console.log(arr2);
+```
+**Hooks** : These the functions that lets you hook into that state.
+
+Why important ? as in the below example the strike won't work as the app is rendered once. And that's why, we need hooks to hook onto some state and make some functionalities working.
+
+
+### 25. React Hooks - useState
+
+https://codesandbox.io/s/usestate-hook-forked-9s6rxr?file=/src/components/App.jsx
+
+A simple increase count do require state change ..if you want to  display it on your UI. Although you can see the changes that the value has changed by console logging it. But, it will not appear on the app as it requires re-rendering of the site. (doing it manually is indeed inefficient way.)
+
+This is where Hooks comes into picture. But it has a condition :  it should be used in a functional component. (i.e a function that renders a component)
+
+Output of a state is an array.
+This is where **destructuring array** concept is used.
+
+```
+const colors= [9,132,227];
+console.log(colors[0]);
+```
+Deconstructing the array:
+```
+const [red,green ,blue] = [9,132,277];
+console.log(blue);
+```
+
+The first value red is mapped with first value 9 and so on.
+
+Similarly,
+```
+const [count,setCount] =useState(0);
+```
+setCount is a function that returns a value and updates the value of count state.
+
+
+### 26. useState Hook Practice
+
+https://codesandbox.io/s/usestate-hook-practice-completed-forked-l4j9zy?file=/src/components/App.jsx
+
+
+### 27. JS ES6 and Array Destructuring + Practice
+
+https://codesandbox.io/s/es6-destructuring-forked-r8rcsg?file=/src/index.js
+
+
+### 28. Event Handling
+
+https://codesandbox.io/s/event-handling-in-react-forked-dlyjxy?file=/src/components/App.jsx
+
+
+### 29. React Forms
+
+https://codesandbox.io/s/react-forms-forked-wftd4w?file=/src/components/App.jsx
+
+### 30. Class Component vs Functional Component
+
+https://codesandbox.io/s/class-components-vs-hooks-forked-kwsgn8
+
+Class Component: 
+
+Syntax: 
+```
+class Car extends React.Component {
+      render() {
+        return <h2>Hi, I am a Car!</h2>;
+      }
+}
+```
+
+Example: 
+```
+import React, { Component } from "react";
+  
+class ClassComponent extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            count: 0
+        };
+        this.increase = this.increase.bind(this);
+    }
+  
+    increase() {
+        this.setState({ count: this.state.count + 1 });
+    }
+  
+    render() {
+        return (
+            <div style={{ margin: '50px' }}>
+                <h1>Welcome</h1>
+                <h3>Counter App using Class Component : </h3>
+                <h2> {this.state.count}</h2>
+                <button onClick={this.increase}> Add</button>
+  
+            </div>
+        )
+    }
+}
+  
+export default ClassComponent;
+```
+
+Functional Component:
+
+Syntax:
+```
+const Car=()=> {
+      return <h2>Hi, I am also a Car!</h2>;
+}
+```
+
+Example:
+```
+import React, { useState } from "react";
+  
+const FunctionalComponent = () => {
+    const [count, setCount] = useState(0);
+  
+    const increase = () => {
+        setCount(count + 1);
+    }
+  
+    return (
+        <div style={{ margin: '50px' }}>
+            <h1>Welcome</h1>
+            <h3>Counter App using Functional Component : </h3>
+            <h2>{count}</h2>
+            <button onClick={increase}>Add</button>
+        </div>
+    )
+}
+  
+export default FunctionalComponent;
+```
+
+What's the main difference ?
+- FC : Stateless components , they accept the data and display them in some form..mainly rendering the UI.
+
+CC: Stateful components as they implement logic and state.
+- Hooks can be used easily in FC to make them stateful. In CC, it requires diffrent syntax to implement them.
+
+example: 
+```
+constructor(props) {
+   super(props);
+   this.state = {name: ‘ ‘}
+}
+```
+- Constructors are used in CC and not in FC.
+- No render method in FC, but CC do require render for returning JSX.
+
+What's the purpose?
+- Functional Components shows greater performance, as it render the interface whenever the props are changed.
+- CC: when the state is changed then the component is re-rendered.
+- CC can use the React lifecycle whereas FC can't.
+
+
+{props are the data that is passed on, state is used to manage the data within the component}
+
+links: 
+- https://legacy.reactjs.org/docs/state-and-lifecycle.html
+- https://legacy.reactjs.org/docs/hooks-intro.html
+- https://legacy.reactjs.org/docs/hooks-faq.html#should-i-use-hooks-classes-or-a-mix-of-both
+- https://react.dev/
+
+
+### 31. Complex State
+
+https://codesandbox.io/s/changing-complex-state-forked-f7lcn7?file=/src/components/App.jsx
+
+Note: never try to use event.target inside set state. It will throw synthetic event error. As the events so created that are passed in the passed are the temporary ones , synthetic events. So, it might create problems here and there when used to change or set the state.
+
+### 32. Changing the Complex state Practice
+
+https://codesandbox.io/s/changing-complex-state-practice-forked-zjc4lq?file=/src/components/App.jsx
+
+
+### 33. JS ES6 Spread Operator
+
+https://codesandbox.io/s/es6-spread-operator-forked-8dr4td?file=/src/components/App.jsx
+
+It's just three dots and magic happens!
+
+```
+const citrus =["lime", "lemon" ,"Orange"];
+const fruits =["Apple", ...citrus, "Lichi", "Coconut"];
+console.log(fruits);
+```
+
+Output: 
+
+```
+(6) ["Apple", "lime", "lemon", "Orange", "Lichi", "Coconut"]
+0: "Apple"
+1: "lime"
+2: "lemon"
+3: "Orange"
+4: "Lichi"
+5: "Coconut"
+```
+
+### 34. JS ES6 Spread Operator Practice (TODO List)
+
+https://codesandbox.io/s/es6-spread-operator-practice-forked-xds8k8?file=/src/components/App.jsx
