@@ -292,6 +292,8 @@ https://codesandbox.io/s/keeper-app-part-2-starting-forked-zkh959?file=/src/comp
 
 https://codesandbox.io/s/conditional-rendering-forked-fvjglm?file=/src/components/App.jsx
 
+Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them.
+
 For passing the function inline, where there is if else it will show error , as it wants expression and not a statement.
 
 thus, using ternary or AND operators comes in handy.
@@ -309,4 +311,15 @@ thus, using ternary or AND operators comes in handy.
 ### 23. Ternary and AND Operators Practice
 
 https://codesandbox.io/s/conditional-rendering-practice-forked-x3gsnh?file=/src/components/Form.jsx
+
+### 24. State in react ( Declarative and imperative programming )
+
+UI = F(State) 
+
+User interface of your website is a function of state of you web app.
+
+Example : 
+- React component is same for H2O whether its ice or water.
+- state variable as false for TODO list and when clicked it becomes true and gets striked.
+
 
