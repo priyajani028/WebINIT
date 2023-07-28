@@ -53,11 +53,11 @@ Course Material Link:
 - Fruit Schema Practice using MongoDB -> Section 32
 - TODO List (frontend with backend) -> Section 33
 - Blog Website Upgrade (BossLevel challenge 4) -> Section 35
+- RESTful APIs -> Section 36 (learnt Postman, outside the course)
 - Whisper App using Authentication (OAuth, Cookies and Sessions) -> Section 37
-
-  <!-- - RESTful APIs -> Section 36 (learnt Postman) -->
-
-
+- Small React Task like counter, login-register, passing props, event handling, conditional rendering, functional components -> Section 38 (Folders 1-37)
+- Keeper App (using the react fundamentals learnt) -> Section 38 (Folder 38)
+  
 
 ## Authentication & Security:
 - Check you password strength (http://password-checker.online-domain-tools.com/)
