@@ -16,6 +16,8 @@ Some other Links:
 - Grid-Sizing-> https://appbrewery.github.io/grid-sizing/
 - Bootstrap Breakpoints Exercise -> https://appbrewery.github.io/bootstrap-layout/
 - For random images -> https://picsum.photos/
+- For Transparent Patterns -> https://transparenttextures.com/
+
 
 Some Games To play & practice:
 - https://flexboxfroggy.com/

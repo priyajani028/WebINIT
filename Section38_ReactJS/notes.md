@@ -555,3 +555,29 @@ Output:
 ### 34. JS ES6 Spread Operator Practice (TODO List)
 
 https://codesandbox.io/s/es6-spread-operator-practice-forked-xds8k8?file=/src/components/App.jsx
+
+
+### 35. Managing a Component 
+
+https://codesandbox.io/s/managing-a-component-tree-forked-8kgtpz?file=/src/components/TodoItem.jsx
+
+Props are read-only...No changing of states..
+
+
+### 36. Managing a Component Practice (Final TODO List)
+
+https://codesandbox.io/s/managing-a-component-tree-practice-forked-xjhq66?file=/src/components/InputArea.jsx
+
+
+### 37. Keeper App Project (Adding States and functions)
+
+https://codesandbox.io/s/keeper-part-3-starting-forked-6m5kjj?file=/src/components/CreateArea.jsx
+
+
+### 38. Keeper App Project (final version) 
+
+Deployed Link: https://incandescent-moxie-2d34ba.netlify.app/
+
+https://codesandbox.io/s/using-pre-built-react-components-completed-forked-nhqqqf?file=/src/index.js
+
+Adding react dependencies and styling the app.
